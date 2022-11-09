@@ -3,9 +3,9 @@ theme: shibainu
 themeConfig:
   primary: '#5d8392'
   secondary: white
-background: /dark_background.jpeg
-class: 'text-center'
-layout: cover
+default:
+  layout: cover
+  background: /dark_background.jpeg
 ---
 
 # Session 3
@@ -24,7 +24,6 @@ layout: default
 
 ---
 layout: cover
-background: /dark_background.jpeg
 ---
 # Lesson 2 Recap
 
@@ -109,3 +108,8 @@ for x in [1, 2]:
     for y in ['a', 'b']:
         print(x, y)
 ```
+
+---
+layout: cover
+---
+# Q & A
