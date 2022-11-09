@@ -12,7 +12,7 @@ const props = defineProps({
       <slot />
     </div>
     <div class="grid grid-cols-2">
-      <div class="col-left" :class="props.class">
+      <div class="col-left pr-20" :class="props.class">
         <slot name="left" />
       </div>
       <div class="col-right" :class="props.class">
